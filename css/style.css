@@ -164,4 +164,9 @@ footer > section.footer-bottom > div{
 footer > section.footer-bottom > div > *{
     background-color: #ffb6c1;
 }
-
+section.footer-bottom > div > section.logo{
+    padding: 5px;
+}
+section.footer-bottom > div > button{
+    padding: 5px;
+}
