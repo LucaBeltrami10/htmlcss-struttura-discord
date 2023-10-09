@@ -3,67 +3,98 @@
     padding: 0;
     box-sizing: border-box;
 }
-section{
-    display: inline-block;
 
 
 /* HEADER */
-}
 header > section.header-top{
-    height: 75px;
+    height: 80px;
     background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header > section.header-bottom{
+    height: 490px;
+    background-color: #00008b;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 section.header-top > nav{
     background-color: #daa520;
-    
     width: 80%;
-    height: 60%;
+    height: 45px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.header-top > nav > *{
+    border: 1px dashed black;
+    line-height: 45px;
+    
 }
 section.header-top > nav> .logo,
 section.header-top > nav> .login
 {
     width: 20%;
-    border: 1px dashed black;
 }
 section.header-top > nav> .link{
-    width: 59%;
-    border: 1px dashed black;
+    width: 60%;
 }
+header > section.header-bottom > article{
+    height: 80%;
+    width: 60%;
+    background-color: #ee82ee;
+}
+
+/* MAIN */
+main > section{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > section:nth-child(even){
+    background-color:#d3d3d3;
+}
+main > section > div{
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+
+main > section > div > article{
+    background-color:#1e90ff;
+    width: 60%;  
+    height: 100%;
+}
+main > section > div > aside{
+    background-color:#ffc0cb;
+    width: 40%;
+    height: 100%;
+}
+main > section.big-section{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > section.big-section > div > article{
+    width: 100%;
+    background-color: #228b22;
+}
+
+
+
 
 
 
 
 
 /* CLASSI GENERICHE */
-/* Background-color */
-.background-color-yellow{
-    background-color: #daa520;
-}
-.background-color-lightblue{
-    background-color:add8e6;
-}
-.background-color-blue{
-    background-color:#00008b;
-}
-.background-color-pink{
-    background-color:#ee82ee;
-}
-.background-color-lightpink{
-    background-color:#ffc0cb;
-}
-.background-color-blue2{
-    background-color:#1e90ff;
-}
-.background-color-lightgray{
-    background-color:#d3d3d3;
-}
-.background-color-green{
-    background-color:#228b22;
-}
+
+
 .background-color-gray{
     background-color:#23272a;
 }
