@@ -2,11 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+section{
+    display: inline-block;
+
+
+/* HEADER */
+}
+header > section.header-top{
+    height: 75px;
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+}
+section.header-top > nav{
+    background-color: #daa520;
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: 15px auto;
+    text-align: center;
+}
+section.header-top > nav> .logo,
+section.header-top > nav> .login
+{
+    width: 20%;
+    
+}
+section.header-top > nav> .link{
+    width: 50%;
+    
 }
 
-main{
-    background-color: aquamarine;
-}
+
+
+
 
 /* CLASSI GENERICHE */
 /* Background-color */
@@ -14,7 +44,7 @@ main{
     background-color: #daa520;
 }
 .background-color-lightblue{
-    background-color:#add8e6;
+    background-color:add8e6;
 }
 .background-color-blue{
     background-color:#00008b;
@@ -49,3 +79,4 @@ main{
 .background-color-lightpink2{
     background-color:#ffb6c1;
 }
+/* Larghezza */
