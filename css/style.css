@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid black; */
 }
 section{
     display: inline-block;
@@ -15,23 +14,24 @@ header > section.header-top{
     background-color: #add8e6;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 section.header-top > nav{
     background-color: #daa520;
-    /* border: 1px solid black; */
+    
     width: 80%;
-    margin: 15px auto;
+    height: 60%;
     text-align: center;
 }
 section.header-top > nav> .logo,
 section.header-top > nav> .login
 {
     width: 20%;
-    
+    border: 1px dashed black;
 }
 section.header-top > nav> .link{
-    width: 50%;
-    
+    width: 59%;
+    border: 1px dashed black;
 }
 
 
