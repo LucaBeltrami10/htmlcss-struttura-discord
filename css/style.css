@@ -85,6 +85,35 @@ main > section.big-section > div > article{
     background-color: #228b22;
 }
 
+/* FOOTER */
+/* Footer Top */
+footer > section{
+width: 100%;
+background-color: #23272a;
+display: flex;
+justify-content: center;
+align-items:center;
+}
+
+footer > section.footer-top{
+    height: 700px;
+}
+footer > section.footer-bottom{
+    height: 400px;
+}
+
+footer > section.footer-top > div,
+footer > section.footer-bottom > div{
+    width: 80%;
+    background-color: #228b22;
+}
+footer > section.footer-top > div{
+    height: 300px;
+}
+footer > section.footer-bottom > div{
+    height: 300px;
+}
+
 
 
 
