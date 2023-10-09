@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main{
+    background-color: aquamarine;
+}
+
+/* CLASSI GENERICHE */
+/* Background-color */
+.background-color-{
+    background-color: #daa520;
+}
+.background-color-{
+    background-color:#add8e6;
+}
+.background-color-{
+    background-color:#00008b;
+}
+.background-color-{
+    background-color:#ee82ee;
+}
+.background-color-{
+    background-color:#ffc0cb;
+}
+.background-color-{
+    background-color:#1e90ff;
+}
+.background-color-{
+    background-color:#d3d3d3;
+}
+.background-color-{
+    background-color:#228b22;
+}
+.background-color-{
+    background-color:#23272a;
+}
+.background-color-{
+    background-color:#20b2aa;
+}
+.background-color-{
+    background-color:#f08080;
+}
+.background-color-{
+    background-color:#7fffd4;
+}
+.background-color-{
+    background-color:#ffb6c1;
+}
