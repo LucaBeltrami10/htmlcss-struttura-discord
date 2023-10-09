@@ -86,57 +86,61 @@ main > section.big-section > div > article{
 }
 
 /* FOOTER */
-/* Footer Top */
+/* In comune tra le sezioni del footer */
 footer > section{
-width: 100%;
-background-color: #23272a;
-display: flex;
-justify-content: center;
-align-items:center;
-}
-
-footer > section.footer-top{
-    height: 700px;
-}
-footer > section.footer-bottom{
-    height: 400px;
-}
-
+    width: 100%;
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    }
 footer > section.footer-top > div,
 footer > section.footer-bottom > div{
     width: 80%;
-    background-color: #228b22;
+}
+
+/* Footer Top */
+
+footer > section.footer-top{
+    height: 500px;
 }
 footer > section.footer-top > div{
-    height: 300px;
+    height: 450px;
+    display: flex;
+}
+.footer-top > div > aside{
+    width: 30%;
+    height: 100%;
+    background-color: #f08080
+}
+.footer-top > div > article{
+    width: 70%;
+    height: 100%;
+    ;
+    display: flex;
+
+
+}
+.footer-top > div > article > section{
+    width: calc(100%/4);
+    height: 100%;
+    background-color: #20b2aa;
+    border: 1px dashed white;
+}
+
+/* footer bottom */
+
+footer > section.footer-bottom{
+    height: 100px;
 }
 footer > section.footer-bottom > div{
-    height: 300px;
+    height: 70px;
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer > section.footer-bottom > div > *{
+    background-color: #ffb6c1;
 }
 
-
-
-
-
-
-
-
-/* CLASSI GENERICHE */
-
-
-.background-color-gray{
-    background-color:#23272a;
-}
-.background-color-blue3{
-    background-color:#20b2aa;
-}
-.background-color-salmon{
-    background-color:#f08080;
-}
-.background-color-blue4{
-    background-color:#7fffd4;
-}
-.background-color-lightpink2{
-    background-color:#ffb6c1;
-}
-/* Larghezza */
