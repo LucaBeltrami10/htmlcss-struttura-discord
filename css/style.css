@@ -4,11 +4,142 @@
     box-sizing: border-box;
 }
 
+/* RIFACIMENTO CSS */
+
+/* CLASSI GENERICHE */
+.flex-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-j-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-j-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-ai-center{
+    display: flex;
+    align-items: center;
+}
+.flex-a-center-spacebetw{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bc-lightblue{
+    background-color: #add8e6;
+}
+.bc-yellow{
+    background-color: #daa520;
+}
+.bc-gray{
+    background-color: #d3d3d3;
+}
+.bc-white{
+    background-color: white;
+}
+.bc-blue{
+    background-color: #00008b;
+}
+.bc-strpink{
+    background-color: #ee82ee;
+}
+.bc-green{
+    background-color: #228b22;
+}
+
+.border-dotted{
+    border: 1px dashed black;
+}
+
+.container{
+    width: 80%;
+}
+.small-container{
+    width: 60%;
+}
+
+/* HEADER */
+header{
+    width: 100vw;
+}
+header nav{
+        padding: 15px 0;
+        margin: 10px;
+        display: flex;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header nav > section{
+    width: 20%;  
+}
+
+header nav > ul{
+    width: 80%;  
+}
+
+header > nav > section:last-child{
+    display: flex;
+    justify-content: end;
+}
+
+/* MAIN */
+
+main section.container,
+main section.small-container{
+    padding:50px 0;
+}
+
+.jumbotron{
+    height: 400px;
+    width: 100%;
+}
+
+.blue-article{
+    height: 400px;
+    width: 70%;
+    background-color: #1e90ff;
+}
+
+.pink-article{
+    height: 400;
+    width: 30%;
+    background-color: #ffc0cb;
+}
+
+.big-article{
+    height: 600px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* HEADER */
 
 /* Header top */
-header > section.header-top{
+/* header > section.header-top{
     height: 80px;
     background-color: #add8e6;
     display: flex;
@@ -44,7 +175,9 @@ section.header-top > nav > section.login{
     text-align: end;
     padding-right: 10px; 
 }
-/* Elementi lista */
+/* Elementi lista 
+
+
 nav > section.link > ul{
     list-style: none;
     display: flex;
@@ -56,7 +189,7 @@ nav > section.link >ul > li{
 
 
 /* Header bottom */
-header > section.header-bottom{
+/* header > section.header-bottom{
     height: 490px;
     background-color: #00008b;
     display: flex;
@@ -68,9 +201,9 @@ header > section.header-bottom > article{
     width: 60%;
     background-color: #ee82ee;
 }
-
+ */
 /* MAIN */
-main > section{
+/* main > section{
     height: 500px;
     display: flex;
     justify-content: center;
@@ -103,11 +236,11 @@ main > section.big-section{
 main > section.big-section > div > article{
     width: 100%;
     background-color: #228b22;
-}
+} */
 
 /* FOOTER */
 /* In comune tra le sezioni del footer */
-footer > section{
+/* footer > section{
     width: 100%;
     background-color: #23272a;
     display: flex;
@@ -120,7 +253,7 @@ footer > section.footer-bottom > div{
 }
 
 /* Footer Top */
-footer > section.footer-top{
+/*footer > section.footer-top{
     height: 500px;
 }
 footer > section.footer-top > div{
@@ -136,19 +269,20 @@ footer > section.footer-top > div{
     width: 70%;
     height: 100%;
     ;
-    display: flex;
+    display: flex; 
 
 
-}
-.footer-top > div > article > section{
+} */
+
+/* .footer-top > div > article > section{
     width: calc(100%/4);
     height: 100%;
     background-color: #20b2aa;
     border: 1px dashed white;
-}
+} */
 
 /* footer bottom */
-footer > section.footer-bottom{
+/* footer > section.footer-bottom{
     height: 100px;
 }
 footer > section.footer-bottom > div{
@@ -166,4 +300,4 @@ section.footer-bottom > div > section.logo{
 }
 section.footer-bottom > div > button{
     padding: 5px;
-}
+}  */
